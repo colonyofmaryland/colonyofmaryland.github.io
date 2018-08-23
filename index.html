@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<title>Buy Maryland Today!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
+.mySlides {display:none}
+</style>
+<body class="w3-content w3-border-left w3-border-right">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-light-grey w3-collapse w3-top" style="z-index:3;width:260px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-transparent w3-display-topright"></i>
+    <h3>Colony for Sale!</h3>
+    <h3>$13,000,000,000</h3>
+    <h6>Sold by: Talia Jackson, Marjona Rustamova, & Josh Meritt</h6>
+    <hr>
+
+  </div>
+  <div class="w3-bar-block">
+    <a href="#apartment" class="w3-bar-item w3-button w3-padding-16"><i class="fa fa-home"></i> The House</a>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-16" onclick="document.getElementById('subscribe').style.display='block'"><i class="fa fa-exchange"></i> Subscribe</a>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-16" onclick="document.getElementById('para').style.display='block'"><i class="fa fa-newspaper-o"></i> Full Paragraph</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-16"><i class="fa fa-envelope"></i> Contact</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <span class="w3-bar-item">Rental</span>
+  <a href="javascript:void(0)" class="w3-right w3-bar-item w3-button" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-white" style="margin-left:260px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:80px"></div>
+
+  <!-- Slideshow Header -->
+  <div class="w3-container" id="apartment">
+    <h2 class="w3-text-green">The House of Maryland</h2>
+    <div class="w3-display-container mySlides">
+    <img src="fronth.png" style="width:100%;margin-bottom:-6px">
+      <div class="w3-display-bottomleft w3-container w3-black">
+        <p>Front</p>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+    <img src="living.png" style="width:100%;margin-bottom:-6px">
+      <div class="w3-display-bottomleft w3-container w3-black">
+        <p>Living Room</p>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+    <img src="bed.png" style="width:100%;margin-bottom:-6px">
+      <div class="w3-display-bottomleft w3-container w3-black">
+        <p>Bedroom</p>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+    <img src="kitchen.png" style="width:100%;margin-bottom:-6px">
+      <div class="w3-display-bottomleft w3-container w3-black">
+        <p>Kitchen</p>
+      </div>
+    </div>
+  </div>
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col s3">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="fronth.png" style="width:100%;cursor:pointer" onclick="currentDiv(1)" title="Front of the House">
+    </div>
+    <div class="w3-col s3">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="living.png" style="width:100%;cursor:pointer" onclick="currentDiv(2)" title="Living Room">
+    </div>
+    <div class="w3-col s3">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="bed.png" style="width:100%;cursor:pointer" onclick="currentDiv(3)" title="Bedroom">
+    </div>
+    <div class="w3-col s3">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="kitchen.png" style="width:100%;cursor:pointer" onclick="currentDiv(4)" title="Kitchen">
+    </div>
+  </div>
+
+  <div class="w3-container">
+    <h4><strong>The space</strong></h4>
+    <div class="w3-row w3-large">
+      <div class="w3-col s6">
+        <p><i class="fa fa-flag"></i> Open to all Christians but if you don't believe in the sanctity of god, you are an outsider and not welcome. </p>
+        <p><i class="	fa fa-group"></i> Most people are here for the religious tolerance. We are liberal which means we can reform and shape our government to however fits our needs.</p>
+        <p><i class="fa fa-graduation-cap"></i> Education here is limited to the wealthy since education should be taught by the parents and not the government. Very little are educated because of the agricultural based economy.</p>
+      </div>
+      <div class="w3-col s6">
+        <p><i class="fa fa-globe"></i> Mid Atlantic state surrounded by coastal plains. Backbone Mountain is the highest point in Maryland. Also, Maryland contains Blue Ridge Mountains and Chesapeake Bay</p>
+        <p><i class="	fa fa-ship"></i>People travel here by boat since many colonial ship records contain little information about the passengers. Generally the list of passengers was a partial list and included names of the most important men. Women and children were often not listed. Which was a easy way to sneak onto the ship. Many people came to maryland because religious intolerance and persecution. Most of Maryland consists of immigrants.</p>
+      </div>
+    </div>
+    <hr>
+
+    <h4><strong>Amenities</strong></h4>
+    <div class="w3-row w3-large">
+      <div class="w3-col s6">
+        <p><i class="fa fa-handshake-o"></i> Trade with England and other English/European Colonies! We trade  tobacco, beaver pelts, timber in exchange for merchandized goods such as furniture, metal wares, glassware, textiles, and clothing.</p>
+        <p><i class="fa fa-sun-o"></i> Crops for years! We are an agricultural based colony. We produce crops such as tobacco, rice, and indigo. We also cultivate fruits and vegetables.</p>
+        <p><i class="fa fa-leaf"></i> In Colonial Maryland we are a Proprietary Government which means we are favorites of the British Crown. Other than us colonists, the Piscataway Indians reside here in Colonial Maryland. At first we tried to convert them to be Christian, and because of their indifference to converting, we slowly pushed them out of our way so we could colonize.</p>
+      </div>
+      <div class="w3-col s6">
+        <p><i class="fa fa-tree"></i> Here in Colonial Maryland, you have to work. Mostly men will work in agriculture, like farming or even fish for a living. They will also trade slaves and fur. Women usually stay in the house and do the housekeeping. To make some money, they will knit quilts and sell them.</p>
+        <p><i class="fa fa-money"></i> We like to build ships here too, it lets us get more money as well as provide jobs for men. We exchange ships and crops to get manufactured goods to live.</p>
+      </div>
+    </div>
+    <hr>
+
+
+    <p>We accept: <i class="fa fa-credit-card w3-large"></i> <i class="fa fa-cc-mastercard w3-large"></i> <i class="fa fa-cc-amex w3-large"></i> <i class="fa fa-cc-cc-visa w3-large"></i><i class="fa fa-cc-paypal w3-large"></i></p>
+
+  <!-- Contact -->
+  <div class="w3-container" id="contact">
+    <h2>Contact</h2>
+    <i class="fa fa-map-marker" style="width:30px"></i> Colony of Maryland<br>
+    <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+    <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+    <p>Questions? Go ahead, ask them:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+    <button type="submit" class="w3-button w3-green w3-third">Send a Message</button>
+    </form>
+  </div>
+
+  <footer class="w3-container w3-padding-16" style="margin-top:32px">Talia Jackson, Marjona Rustamova, & Josh Meritt</footer>
+
+<!-- End page content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom w3-padding-large">
+    <div class="w3-container w3-white w3-center">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-button w3-xlarge w3-right w3-transparent"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join our mailing list to receive special offers and news about Maryland.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-padding-large w3-green w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<div id="para" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom w3-padding-large">
+    <div class="w3-container w3-white w3-center">
+      <i onclick="document.getElementById('para').style.display='none'" class="fa fa-remove w3-button w3-xlarge w3-right w3-transparent"></i>
+      <h2 class="w3-wide">INFO</h2>
+      <p>Colonial Maryland waas the 5th colony of the original 13 Colonies. It was founded by Cecil Calvert, Second Baron of Baltimore, in 1632. People who were Christian moved to the colony of Maryland because of the religious toleration. Later making an act called the Maryland Act of Toleration which set the basis of society for the other colonies around Maryland. If you were Christian, then you were welcome but if you weren't, you were considered an outsider. With Maryland being a hub for tolerance, many people came. With many people came the shaping of Maryland's culture. Many of the people in Maryland were Roman Catholic and after the Toleration Act was passed, there was a massive religious melting pot. With religion came education for those who read the bible then later extended to the young, wealthy, white man. Maryland was a Proprietary Government which meant that they were in favor of the British Crown. There would be royal governors that reported to the king. Most of Maryland's trade was with England. Geography is very important to where someone may settle which is why Maryland is a good place to settle. With the Chesapeake Bay right at the mouth of Maryland and it's very temperate climate, Maryland was perfect for crops, which is why Maryland became an Agricultural based colony. With the vast amount of tobacco that could be produce there, Maryland was booming left and right for trade. With the land comes the people who lived there before, the Piscataway Indians. With first arrival, they people tried to convert them to Christianity and the Piscataway Indians weren't having it. With more and more colonists coming to Maryland, they were slowly moved to the Nothern region of Maryland. Unlike the French, there wasn't any friendly communication between the Natives and the colonists. For the colonists to move to Maryland, they took boats such as the <i> Ark </i> and the <i>Dove</i> to go to Maryland. Many people who went were men and indentured servants but as time went on, women and children would come too, increasing the population of Maryland. With colonization, comes jobs to keep the society running. Most of the people in Maryland were farmers and those who weren't were men who did slave trading, ship building, and fishing. Women would stay home and raise their children.</p>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+// Script to open and close sidebar when on tablets and phones
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Slideshow Apartment Images
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+}
+</script>
+
+</body>
+</html>
